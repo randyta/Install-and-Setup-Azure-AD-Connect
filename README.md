@@ -45,14 +45,18 @@ Selecting Express Settings is the default option and is one of the most common s
 2. Navigate to and double-click on AzureADConnect.msi
 3. On the Welcome screen, select the box agreeing to the licensing terms and click **Continue**.
 4. On the Express settings screen, click **Use express settings**.
-![Welcome to Azure AD Connect](./media/active-directory-aadconnect-get-started/express.png)
+(![express](https://github.com/user-attachments/assets/c74ae65b-f5b3-4a7f-b309-3383ae733666)
+)
 5. On the Connect to Azure AD screen, enter the username and password of an Azure global administrator for your Azure AD. Click **Next**.
 6. On the Connect to AD DS screen enter the username and password for an enterprise admin account.  Click **Next**.
-![Welcome to Azure AD Connect](./media/active-directory-aadconnect-get-started/install4.png)
+(![install4](https://github.com/user-attachments/assets/2311fe33-2240-45b5-ab9f-d43444214d3b)
+)
 7. On the Ready to configure screen, click **Install**.
 	- Optionally on the Ready to Configure page, you can un-check the “**Start the synchronization process as soon as configuration completes**” checkbox.  If you do this, the wizard will configure sync but will leave the task disabled so it will not run until you enable it manually in the Task Scheduler.  Once the task is enabled, synchronization will run every three hours.
 	- Also optionally you can choose to configure sync services for **Exchange Hybrid deployment** by checking the corresponding checkbox.  If you don’t plan to have Exchange mailboxes both in the cloud and on premises, you do not need this.
-![Welcome to Azure AD Connect](./media/active-directory-aadconnect-get-started/readyinstall.png)<br>
+<img width="300" alt="readyinstall" src="https://github.com/user-attachments/assets/bf6eb685-896a-4b9e-9a7e-631950a6974d">
+)
+)<br>
 8. Once the installation completes, click **Exit**.
 9. After the installation has completed, Logoff and Login again before you use Synchronization Service Manager or Synchronization Rule Editor.
 
