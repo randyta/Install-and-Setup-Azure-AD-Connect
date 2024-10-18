@@ -54,7 +54,9 @@ Selecting Express Settings is the default option and is one of the most common s
 7. On the Ready to configure screen, click **Install**.
 	- Optionally on the Ready to Configure page, you can un-check the “**Start the synchronization process as soon as configuration completes**” checkbox.  If you do this, the wizard will configure sync but will leave the task disabled so it will not run until you enable it manually in the Task Scheduler.  Once the task is enabled, synchronization will run every three hours.
 	- Also optionally you can choose to configure sync services for **Exchange Hybrid deployment** by checking the corresponding checkbox.  If you don’t plan to have Exchange mailboxes both in the cloud and on premises, you do not need this.
-<img width="300" alt="readyinstall" src="https://github.com/user-attachments/assets/bf6eb685-896a-4b9e-9a7e-631950a6974d">
+( <img width="300" alt="readyinstall" src="https://github.com/user-attachments/assets/343d1978-a471-48b2-9ae2-8cfd50800aed">
+ )
+)
 )
 )<br>
 8. Once the installation completes, click **Exit**.
@@ -63,12 +65,3 @@ Selecting Express Settings is the default option and is one of the most common s
 <br>
 <br>
 
-For a video on using the express installation check out the following:
-
-<center>[AZURE.VIDEO azure-active-directory-connect-express-settings]</center>
-
-
-## Next steps
-Now that you have Azure AD Connect installed you can [verify the installation and assign licenses](active-directory-aadconnect-whats-next.md).
-
-Learn more about [Integrating your on-premises identities with Azure Active Directory](active-directory-aadconnect.md).
