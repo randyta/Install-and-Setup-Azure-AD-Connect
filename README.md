@@ -35,7 +35,8 @@ If you did not read the documentation on [Integrating your on-premises identitie
 ## Express installation of Azure AD Connect
 Selecting Express Settings is the default option and is one of the most common scenarios. When doing this, Azure AD Connect deploys sync with the password sync option. This is for a single forest only and allows your users to use their on-premises password to sign-in to the cloud. Using the Express Settings will automatically kick off a synchronization once the installation is complete (though you can choose not to do this). With this option there are only a few short clicks to extending your on-premises directory to the cloud.
 
-![Welcome to Azure AD Connect](./media/active-directory-aadconnect-get-started/welcome.png)
+![Welcome to Azure AD Connect](![welcome](https://github.com/user-attachments/assets/fafccc62-4e61-42cf-baeb-f6098d667d3c)
+)
 
 ### To install Azure AD Connect using express settings
 
